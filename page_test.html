@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="interactive.css">
+	<title>test page</title>
+</head>
+<body>
+	<script src="interactive.js"></script>
+	<script src="SimpleImage.js"></script>
+	<!-- <div class="class_1">
+<p id="1"> Testing Javascript interactivity with HTML</p>
+</div>
+<button onclick="change()">change</button>
+<button onclick= "color()">change color</button>
+<canvas id="myCanvas"></canvas>
+<button onclick="can()">canvas magic</button> -->
+<h2>Upload an image</h2>
+<canvas id="image"></canvas>
+<input type="file" multiple="false" accept="image/*" id="finput" onchange="upload()">
+<h2>Convert to greyscale</h2>
+<canvas id="grey"></canvas>
+<button onclick="greyscale()">Greyscale it!</button>
+</body>
+</html>

@@ -1,0 +1,23 @@
+.class_1{
+	background-color: orange ;
+}
+.class_2{
+	background-color: red ;
+}
+#myCanvas{
+	height: 500px;
+	width: 300px;
+	border: solid;
+	background-color: green;
+}
+#image{
+	height: 500px;
+	width: 300px;
+	border: solid;
+}
+#grey{
+	height: 500px;
+	width: 300px;
+	border: solid;
+	align-items: center;
+}
